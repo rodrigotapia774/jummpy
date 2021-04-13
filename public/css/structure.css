@@ -1,0 +1,211 @@
+/*Definimos estandares vasicas CSS*/
+a{
+    text-decoration: none !important;
+}
+a:hover{
+    text-decoration: none;
+}
+img,iframe {
+    max-width: 100%;
+}
+
+/*Creamos lasclases de la galería de imagenes 
+para el formulario de registro deproductos y licitaciones.*/
+.boxgalery{
+    position: relative;
+}
+#previewAvatar{
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    padding: 10px;
+    min-height: 400px;
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #fafafa;
+    border:2px dashed rgb(187, 187, 187) !important
+}
+#previewAvatar img {
+    border:1px dotted;
+    display: block;
+    max-width: calc(100% - 20px);
+    max-height: 380px;
+}
+.filehidden {
+    height: 0;
+    float: left;
+}
+.closeImg{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+}
+.changeImg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    box-sizing: content-box;
+    width: 1em;
+    height: 1em;
+    padding: .25em .25em;
+    color: #000;
+    border: 0;
+    border-radius: .25rem;
+    opacity: .5;
+}
+.changeImg:hover{
+    opacity: 1;
+}
+.previewGalery{
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    padding: 10px;
+    min-height: 170px;
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #fafafa;
+    border:2px dashed rgb(187, 187, 187) !important
+}
+.previewGalery img {
+    border:1px dotted;
+    display: block;
+    max-width: calc(100% - 20px);
+    max-height: 150px;
+}
+
+/*Definimoslos estilo en lasclases de los productos 
+en MarketPlace*/
+.box__product {
+    padding: 10px;
+    background: #fff;
+}
+.product__image {
+    padding-right: 0;
+    overflow: hidden;
+    display: inline-block;
+    width: 100%;
+}
+.product__content h2 {
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 10px;
+    color: #e65100;
+}
+.product__content h3 {
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 10px;
+    color: rgba(0,0,0,.9)
+} 
+.product__content h4 {
+    font-size: 12px;
+    color: rgba(0,0,0,.8);
+    font-weight: 500;
+    text-decoration:line-through;
+    margin: 13px 0 0;
+}
+.product__content p {
+    font-size: 12px;
+    color: rgba(0,0,0,.8);
+    margin-bottom: 5px;
+}
+.product__image .carousel-item .flex__img {
+    display: flex;
+    max-height: 270px;
+    height: 270px;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+}
+.product__image img {
+    min-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+/*Definimos las clases y estilos para el detalle de un producto
+en MarketPlace*/
+.product__image__view .carousel-item .flex__img {
+    display: flex;
+    max-height: 350px;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+}
+.product__image__view img {
+    min-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+.content__product__view h3 {
+    font-weight: 700;
+    font-size: 20px;
+}
+.content__product__view h4 {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
+/**Definimos lasclases y estilos para elMarket Place de
+Licitaicones.*/
+.box__licitaciones{
+    padding: 20px;
+    border: 1px solid rgba(0,0,0,.1);
+}
+.box__licitaciones .licitaciones__content {
+    display: block;
+}
+.box__licitaciones .licitaciones__content h3 {
+    color: rgba(0,0,0,.8);
+    font-size: 18px;
+    font-weight: 800;   
+}
+.box__licitaciones .licitaciones__content p {
+    color: rgba(0,0,0,.7);
+    font-size: 14px;
+}
+.box__licitaciones .licitaciones__content h5 {
+    color: rgba(0,0,0,.7);
+    font-size: 12px;
+}
+.box__licitaciones .licitaciones__content .text-blue {
+    color: rgba(0,0,0,.7);
+    font-size: 14px;
+    color: #1a237e;
+}
+.box__licitaciones .licitaciones__content .bg-orange {
+    background-color: #e65100;
+}
+.box__licitaciones .licitaciones__content .bg-green {
+    background-color: #2e7d32;
+}
+.btn-orange {
+    background-color: #ef6c00 !important;
+    border-color: #e65100 !important;
+    color:#fff !important;
+}
+.btn-orange:hover {
+    background-color: #e65100 !important;
+}
+.btn-orange:focus {
+    box-shadow: 0 0 0 0.25rem rgb(230 81 0 / 50%) !important;
+}
+.box__licitaciones .progress {
+    height: .5rem;
+}
+.bg-orange {
+    background-color: #e65100;
+}
